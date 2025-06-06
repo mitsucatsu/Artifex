@@ -16,6 +16,8 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+.env.development
+.env.production
 
 # Editor directories and files
 .vscode/
@@ -72,3 +74,16 @@ staticfiles/
 # Misc
 *.bak
 *.swp
+
+# React-specific
+*.env.*
+*.env.*.local
+.eslintcache
+.cache/
+public/mockServiceWorker.js
+
+# npm logs
+package-lock.json.lck
+
+# Test coverage
+coverage/
